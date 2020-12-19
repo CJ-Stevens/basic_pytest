@@ -1,3 +1,5 @@
+# doc https://docs.pytest.org/en/stable/index.html
+
 from src.area import rectangle, triangle
 from src.volume import *
 import pytest
