@@ -8,7 +8,7 @@ import pytest
 def test_one():
     assert rectangle(5, 2) == 10
     assert rectangle(5, 4.5) == 22.5
-    assert triangle(5, 2) == 5
+    assert triangle(5, 2) == 5.1
 
 
 def test_volume():
@@ -18,8 +18,8 @@ def test_volume():
 
 
 def test_list():
-    assert [cubic(n) for n in range(1, 4)]==[1,8,27]
-
+    assert [cubic(n) for n in range(2, 6)] == [8, 27, 64, 125]
+    assert [rectangle(w, h) for w, h in [(1, 2), [5, 3]]] == [2, 15]
 
 def test_exception():
     with pytest.raises(ValueError):
