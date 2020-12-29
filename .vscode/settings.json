@@ -11,4 +11,5 @@
         "**/trace.log": true
     },
     "terminal.integrated.fontWeight": "normal",
+    "python.pythonPath": "/Users/prasert/miniconda3/bin/python",
 }
