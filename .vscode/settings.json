@@ -10,4 +10,5 @@
         "**/.pytest_cache": true,
         "**/trace.log": true
     },
+    "terminal.integrated.fontWeight": "normal",
 }
