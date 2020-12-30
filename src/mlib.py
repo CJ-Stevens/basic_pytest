@@ -12,6 +12,6 @@ def price_vat(amt, vat_rate=.07):
     return (price, vat)
 
 
-if __name__ == "__main__":
-    print(price_vat(120, .1))
-    print(gen_email('Peter', 'Parker', 'marvel.com'))
+# if __name__ == "__main__":
+#     print(price_vat(120, .1))
+#     print(gen_email('Peter', 'Parker', 'marvel.com'))
