@@ -9,7 +9,7 @@ def menu_info():
 
 @pytest.fixture
 def discount_value():
-    return 15
+    return 10
 
 def test_one(menu_info):
     assert menu_info['mocha']==40
